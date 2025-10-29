@@ -18,23 +18,14 @@ pip install --no-deps keras==3.3.3
 # 4) Run
 streamlit run app/streamlit_app.py
 ```
-## Install (Windows/macOS/Linux)
 
-Requires Conda/Miniconda and Git LFS (for large model files).
+## License
 
-Fast path (Windows)
-```
-install.bat
-```
-Fast path (macOS / Linux)
-```
-./install.sh
-```
-Manual
-```
-conda create -n cxr-demo python=3.10 -y
-conda activate cxr-demo
-pip install -r requirements.txt
-# IMPORTANT: install Keras 3 separately to avoid TF 2.15 resolver conflict
-pip install --no-deps keras==3.3.3
-```
+This repository is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+### Models & weights
+- All code in this repository is MIT-licensed.
+- Model weights (`*.keras`) and any example images may be subject to their own licenses or dataset terms. Ensure you have the right to distribute and use them. If you redistribute this repo without weights, keep Git LFS pointers but remove the actual files if required by their terms.
+
+### Third-party notices
+This project depends on third-party libraries (TensorFlow, PyTorch, torchxrayvision, pydicom, etc.) each under their own licenses. See their respective repositories for details.
