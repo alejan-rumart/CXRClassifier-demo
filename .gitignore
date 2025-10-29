@@ -1,0 +1,32 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda_env/
+.ipynb_checkpoints/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Logs
+*.log
+
+# Data (if any large local data not to commit)
+data/

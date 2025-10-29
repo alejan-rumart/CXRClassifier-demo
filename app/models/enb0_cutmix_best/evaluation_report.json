@@ -1,0 +1,676 @@
+{
+  "timestamp": "2025-08-13T08:39",
+  "model_file": "C:\Users\ruizm\Documents\MedicalImageDemo\app\models\enb0_imnet_ce_noosr_cutmix_best",
+  "num_test_samples": 18386,
+  "label_space": "simplified",
+  "label_names": [
+    "cardiomegaly",
+    "aortic elongation",
+    "unchanged",
+    "scoliosis",
+    "costophrenic angle blunting",
+    "air trapping",
+    "pleural effusion",
+    "interstitial pattern",
+    "vertebral degenerative changes",
+    "laminar atelectasis"
+  ],
+  "selected_label_idx": [
+    0,
+    2,
+    1,
+    4,
+    7,
+    8,
+    3,
+    5,
+    13,
+    12
+  ],
+  "per_label": {
+    "cardiomegaly": {
+      "threshold": 0.606638491153717,
+      "pr_auc_val": 0.5644012977385723,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            7701,
+            621
+          ],
+          [
+            250,
+            553
+          ]
+        ],
+        "accuracy": 0.9045479452054794,
+        "precision": 0.47103918228279384,
+        "recall": 0.688667496886675,
+        "f1_score": 0.5594334850784016,
+        "f2_score": 0.6304149566803465,
+        "specificity": 0.9253785147789889,
+        "negative_predictive_value": 0.9685574141605225,
+        "g_mean": 0.7982970032798289,
+        "youden_j": 0.6140460116656639,
+        "matthews_corrcoef": 0.5195503217100877,
+        "cohen_kappa": 0.5080141167751936,
+        "balanced_accuracy": 0.8070230058328319,
+        "roc_auc": 0.9180856575153916,
+        "pr_auc": 0.5644012977385723,
+        "brier_score": 0.09190792581265722
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            15506,
+            1193
+          ],
+          [
+            593,
+            1094
+          ]
+        ],
+        "accuracy": 0.9028608724029152,
+        "precision": 0.4783559247923043,
+        "recall": 0.6484884410195614,
+        "f1_score": 0.5505787619526926,
+        "f2_score": 0.6054233536247925,
+        "specificity": 0.928558596322577,
+        "negative_predictive_value": 0.9631654140002713,
+        "g_mean": 0.775989379131274,
+        "youden_j": 0.5770470373421384,
+        "matthews_corrcoef": 0.5047559613062347,
+        "cohen_kappa": 0.4975121051190101,
+        "balanced_accuracy": 0.7885235186710692,
+        "roc_auc": 0.9160279679827773,
+        "pr_auc": 0.5590782813241778,
+        "brier_score": 0.09218206597918427
+      }
+    },
+    "aortic elongation": {
+      "threshold": 0.7056127190589905,
+      "pr_auc_val": 0.39002359521748775,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            7840,
+            659
+          ],
+          [
+            274,
+            352
+          ]
+        ],
+        "accuracy": 0.8977534246575343,
+        "precision": 0.34817012858555885,
+        "recall": 0.5623003194888179,
+        "f1_score": 0.43005497861942577,
+        "f2_score": 0.5007112375533428,
+        "specificity": 0.9224614660537445,
+        "negative_predictive_value": 0.9662312053229404,
+        "g_mean": 0.7202085649852714,
+        "youden_j": 0.48476178554256233,
+        "matthews_corrcoef": 0.3903969159757361,
+        "cohen_kappa": 0.37728814082480266,
+        "balanced_accuracy": 0.7423808927712812,
+        "roc_auc": 0.896324863628008,
+        "pr_auc": 0.39002359521748775,
+        "brier_score": 0.12076632406778423
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            15682,
+            1358
+          ],
+          [
+            582,
+            764
+          ]
+        ],
+        "accuracy": 0.894484934189057,
+        "precision": 0.3600377002827521,
+        "recall": 0.5676077265973254,
+        "f1_score": 0.44059976931949246,
+        "f2_score": 0.5089261923794298,
+        "specificity": 0.9203051643187087,
+        "negative_predictive_value": 0.9642154451543505,
+        "g_mean": 0.7227532926903344,
+        "youden_j": 0.48791289091603396,
+        "matthews_corrcoef": 0.3977527995870028,
+        "cohen_kappa": 0.3855520695320659,
+        "balanced_accuracy": 0.743956445458017,
+        "roc_auc": 0.8930303838882727,
+        "pr_auc": 0.3868927667737805,
+        "brier_score": 0.12456060595148047
+      }
+    },
+    "unchanged": {
+      "threshold": 0.5012279152870178,
+      "pr_auc_val": 0.14869755197077894,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            6972,
+            1511
+          ],
+          [
+            354,
+            288
+          ]
+        ],
+        "accuracy": 0.7956164383561644,
+        "precision": 0.16008893829905502,
+        "recall": 0.4485981308411215,
+        "f1_score": 0.23596886521917249,
+        "f2_score": 0.3297458209297,
+        "specificity": 0.8218790522211223,
+        "negative_predictive_value": 0.9516789516776526,
+        "g_mean": 0.6072012900215775,
+        "youden_j": 0.2704771830622439,
+        "matthews_corrcoef": 0.17386967544160867,
+        "cohen_kappa": 0.14756828081693596,
+        "balanced_accuracy": 0.6352385915311219,
+        "roc_auc": 0.7052922043463875,
+        "pr_auc": 0.14869755197077894,
+        "brier_score": 0.1699224662814318
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            13921,
+            3128
+          ],
+          [
+            819,
+            518
+          ]
+        ],
+        "accuracy": 0.7853257913629936,
+        "precision": 0.14207350521119033,
+        "recall": 0.387434554973822,
+        "f1_score": 0.20790688340357213,
+        "f2_score": 0.2879697576161886,
+        "specificity": 0.8165288286698242,
+        "negative_predictive_value": 0.9444369063765641,
+        "g_mean": 0.5624513164345777,
+        "youden_j": 0.2039633836436463,
+        "matthews_corrcoef": 0.1328343188638201,
+        "cohen_kappa": 0.11357903134696012,
+        "balanced_accuracy": 0.6019816918218232,
+        "roc_auc": 0.6810326458828052,
+        "pr_auc": 0.14361318768736991,
+        "brier_score": 0.1726954893671497
+      }
+    },
+    "scoliosis": {
+      "threshold": 0.8310635685920715,
+      "pr_auc_val": 0.3144260783406301,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8333,
+            313
+          ],
+          [
+            311,
+            168
+          ]
+        ],
+        "accuracy": 0.9316164383561644,
+        "precision": 0.3492723492723493,
+        "recall": 0.35073068893528186,
+        "f1_score": 0.35,
+        "f2_score": 0.3504380475594493,
+        "specificity": 0.9637982882246543,
+        "negative_predictive_value": 0.9640212864403469,
+        "g_mean": 0.5814066026660503,
+        "youden_j": 0.3145289771599362,
+        "matthews_corrcoef": 0.3139106987538527,
+        "cohen_kappa": 0.31390993977493264,
+        "balanced_accuracy": 0.6572644885799681,
+        "roc_auc": 0.8055459775527029,
+        "pr_auc": 0.3144260783406301,
+        "brier_score": 0.20474726887759748
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            16641,
+            703
+          ],
+          [
+            654,
+            388
+          ]
+        ],
+        "accuracy": 0.9261938431415208,
+        "precision": 0.3556370302474794,
+        "recall": 0.3723608445297505,
+        "f1_score": 0.36380684481950304,
+        "f2_score": 0.3688914242251378,
+        "specificity": 0.959467250921956,
+        "negative_predictive_value": 0.9621856027748122,
+        "g_mean": 0.597719027513712,
+        "youden_j": 0.33182809545170633,
+        "matthews_corrcoef": 0.3247498714512357,
+        "cohen_kappa": 0.3246532953634793,
+        "balanced_accuracy": 0.6659140477258532,
+        "roc_auc": 0.8311430748064679,
+        "pr_auc": 0.34521983267651135,
+        "brier_score": 0.20438286788426405
+      }
+    },
+    "costophrenic angle blunting": {
+      "threshold": 0.722364068031311,
+      "pr_auc_val": 0.2666997480052746,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8533,
+            275
+          ],
+          [
+            178,
+            139
+          ]
+        ],
+        "accuracy": 0.9503561643835616,
+        "precision": 0.3357487922705314,
+        "recall": 0.4384858044164038,
+        "f1_score": 0.38030095759233923,
+        "f2_score": 0.4131985731272295,
+        "specificity": 0.9687783832868201,
+        "negative_predictive_value": 0.979566065892573,
+        "g_mean": 0.6517634300087298,
+        "youden_j": 0.4072641877032239,
+        "matthews_corrcoef": 0.3583524097607812,
+        "cohen_kappa": 0.35491726695442605,
+        "balanced_accuracy": 0.703632093851612,
+        "roc_auc": 0.8611328388015485,
+        "pr_auc": 0.2666997480052746,
+        "brier_score": 0.10786297658957972
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            17173,
+            545
+          ],
+          [
+            411,
+            257
+          ]
+        ],
+        "accuracy": 0.948003916023061,
+        "precision": 0.3204488778054863,
+        "recall": 0.3847305389221557,
+        "f1_score": 0.3496598639455783,
+        "f2_score": 0.36989061600460565,
+        "specificity": 0.9692403205773963,
+        "negative_predictive_value": 0.976626478616369,
+        "g_mean": 0.6106523977524567,
+        "youden_j": 0.35397085949955187,
+        "matthews_corrcoef": 0.3242776884849449,
+        "cohen_kappa": 0.32281356088400237,
+        "balanced_accuracy": 0.6769854297497759,
+        "roc_auc": 0.8431012593843806,
+        "pr_auc": 0.2737535839884191,
+        "brier_score": 0.10823623155916759
+      }
+    },
+    "air trapping": {
+      "threshold": 0.765346109867096,
+      "pr_auc_val": 0.1541104326981357,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8330,
+            436
+          ],
+          [
+            256,
+            103
+          ]
+        ],
+        "accuracy": 0.9241643835616439,
+        "precision": 0.19109461966604824,
+        "recall": 0.28690807799442897,
+        "f1_score": 0.22939866369710465,
+        "f2_score": 0.2607594936708861,
+        "specificity": 0.950262377366016,
+        "negative_predictive_value": 0.9701840204973559,
+        "g_mean": 0.5221474430469811,
+        "youden_j": 0.237170455360445,
+        "matthews_corrcoef": 0.19557742335942246,
+        "cohen_kappa": 0.1912002795351192,
+        "balanced_accuracy": 0.6185852276802225,
+        "roc_auc": 0.7791312916389418,
+        "pr_auc": 0.1541104326981357,
+        "brier_score": 0.1819307791410367
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            16890,
+            816
+          ],
+          [
+            494,
+            186
+          ]
+        ],
+        "accuracy": 0.9287501359730229,
+        "precision": 0.18562874251497005,
+        "recall": 0.2735294117647059,
+        "f1_score": 0.22116527942925088,
+        "f2_score": 0.24986566362170878,
+        "specificity": 0.9539139274816706,
+        "negative_predictive_value": 0.9715830648866937,
+        "g_mean": 0.5108067300439783,
+        "youden_j": 0.22744333924637639,
+        "matthews_corrcoef": 0.18909462828066917,
+        "cohen_kappa": 0.18526396859375915,
+        "balanced_accuracy": 0.6137216696231882,
+        "roc_auc": 0.7667355200297672,
+        "pr_auc": 0.1403525654298408,
+        "brier_score": 0.18445169785912865
+      }
+    },
+    "pleural effusion": {
+      "threshold": 0.9159021973609924,
+      "pr_auc_val": 0.6392388385695068,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8721,
+            83
+          ],
+          [
+            128,
+            193
+          ]
+        ],
+        "accuracy": 0.9768767123287672,
+        "precision": 0.6992753623188406,
+        "recall": 0.6012461059190031,
+        "f1_score": 0.6465661641541038,
+        "f2_score": 0.6185897435897436,
+        "specificity": 0.9905724670593018,
+        "negative_predictive_value": 0.9855350887094749,
+        "g_mean": 0.7717368971676715,
+        "youden_j": 0.5918185729783048,
+        "matthews_corrcoef": 0.6366188372092337,
+        "cohen_kappa": 0.6346837157402437,
+        "balanced_accuracy": 0.7959092864891524,
+        "roc_auc": 0.9383517970449569,
+        "pr_auc": 0.6392388385695068,
+        "brier_score": 0.06975055387285548
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            17583,
+            171
+          ],
+          [
+            245,
+            387
+          ]
+        ],
+        "accuracy": 0.9773740889807462,
+        "precision": 0.6935483870967742,
+        "recall": 0.6123417721518988,
+        "f1_score": 0.6504201680672268,
+        "f2_score": 0.6270252754374596,
+        "specificity": 0.9903683676912299,
+        "negative_predictive_value": 0.9862575723575352,
+        "g_mean": 0.7787450939525918,
+        "youden_j": 0.6027101398431287,
+        "matthews_corrcoef": 0.6400983868825257,
+        "cohen_kappa": 0.6387755792143092,
+        "balanced_accuracy": 0.8013550699215644,
+        "roc_auc": 0.9556700896784892,
+        "pr_auc": 0.6534141387870134,
+        "brier_score": 0.06756170521296122
+      }
+    },
+    "interstitial pattern": {
+      "threshold": 0.8028661608695984,
+      "pr_auc_val": 0.20598367976763785,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8593,
+            246
+          ],
+          [
+            182,
+            104
+          ]
+        ],
+        "accuracy": 0.9530958904109589,
+        "precision": 0.29714285714285715,
+        "recall": 0.36363636363636365,
+        "f1_score": 0.3270440251572327,
+        "f2_score": 0.34805890227576974,
+        "specificity": 0.9721687973741687,
+        "negative_predictive_value": 0.9792592592581432,
+        "g_mean": 0.5945720530918683,
+        "youden_j": 0.33580516101053237,
+        "matthews_corrcoef": 0.3046592476889035,
+        "cohen_kappa": 0.3030000178466261,
+        "balanced_accuracy": 0.6679025805052662,
+        "roc_auc": 0.8239471525193892,
+        "pr_auc": 0.20598367976763785,
+        "brier_score": 0.106933115510655
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            17275,
+            501
+          ],
+          [
+            386,
+            224
+          ]
+        ],
+        "accuracy": 0.951756771456543,
+        "precision": 0.30896551724137933,
+        "recall": 0.36721311475409835,
+        "f1_score": 0.3355805243445693,
+        "f2_score": 0.35387045813586093,
+        "specificity": 0.9718159315926126,
+        "negative_predictive_value": 0.9781439329590746,
+        "g_mean": 0.5973805781976671,
+        "youden_j": 0.33902904634671094,
+        "matthews_corrcoef": 0.3119910945827351,
+        "cohen_kappa": 0.31074286974959864,
+        "balanced_accuracy": 0.6695145231733555,
+        "roc_auc": 0.8486111316049637,
+        "pr_auc": 0.2680434211858667,
+        "brier_score": 0.10365075805742315
+      }
+    },
+    "vertebral degenerative changes": {
+      "threshold": 0.8637712001800537,
+      "pr_auc_val": 0.12769882825796483,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8579,
+            280
+          ],
+          [
+            203,
+            63
+          ]
+        ],
+        "accuracy": 0.947068493150685,
+        "precision": 0.1836734693877551,
+        "recall": 0.23684210526315788,
+        "f1_score": 0.20689655172413793,
+        "f2_score": 0.22388059701492535,
+        "specificity": 0.9683937238955092,
+        "negative_predictive_value": 0.9768845365509258,
+        "g_mean": 0.4789116915372203,
+        "youden_j": 0.20523582915866712,
+        "matthews_corrcoef": 0.18152756120570562,
+        "cohen_kappa": 0.17996970592870354,
+        "balanced_accuracy": 0.6026179145793336,
+        "roc_auc": 0.8185448382215275,
+        "pr_auc": 0.12769882825796483,
+        "brier_score": 0.19226879693743767
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            17219,
+            590
+          ],
+          [
+            450,
+            127
+          ]
+        ],
+        "accuracy": 0.9434352224518655,
+        "precision": 0.17712691771269176,
+        "recall": 0.22010398613518198,
+        "f1_score": 0.19629057187017002,
+        "f2_score": 0.2099173553719008,
+        "specificity": 0.9668706833618019,
+        "negative_predictive_value": 0.9745316656285162,
+        "g_mean": 0.4613156094098486,
+        "youden_j": 0.18697466949698383,
+        "matthews_corrcoef": 0.16839332972772003,
+        "cohen_kappa": 0.1673321266364588,
+        "balanced_accuracy": 0.5934873347484919,
+        "roc_auc": 0.8184018498620983,
+        "pr_auc": 0.13639899018902393,
+        "brier_score": 0.1979630317346224
+      }
+    },
+    "laminar atelectasis": {
+      "threshold": 0.6933267712593079,
+      "pr_auc_val": 0.2298286450341889,
+      "validation_metrics": {
+        "confusion_matrix": [
+          [
+            8589,
+            257
+          ],
+          [
+            174,
+            105
+          ]
+        ],
+        "accuracy": 0.9527671232876712,
+        "precision": 0.2900552486187845,
+        "recall": 0.3763440860215054,
+        "f1_score": 0.32761310452418096,
+        "f2_score": 0.3552097428958051,
+        "specificity": 0.9709473208218732,
+        "negative_predictive_value": 0.9801437863734107,
+        "g_mean": 0.6044917551379317,
+        "youden_j": 0.34729140684337856,
+        "matthews_corrcoef": 0.3063295659756789,
+        "cohen_kappa": 0.3035620401092307,
+        "balanced_accuracy": 0.6736457034216893,
+        "roc_auc": 0.8254521615180342,
+        "pr_auc": 0.2298286450341889,
+        "brier_score": 0.11861123785292649
+      },
+      "test_metrics": {
+        "confusion_matrix": [
+          [
+            17346,
+            491
+          ],
+          [
+            371,
+            178
+          ]
+        ],
+        "accuracy": 0.9531165016860654,
+        "precision": 0.26606875934230195,
+        "recall": 0.3242258652094718,
+        "f1_score": 0.29228243021346473,
+        "f2_score": 0.3106457242582897,
+        "specificity": 0.9724729494864761,
+        "negative_predictive_value": 0.9790596602128018,
+        "g_mean": 0.5615165923105564,
+        "youden_j": 0.29669881469594794,
+        "matthews_corrcoef": 0.2696837250013206,
+        "cohen_kappa": 0.26828093574826406,
+        "balanced_accuracy": 0.648349407347974,
+        "roc_auc": 0.8071544045946123,
+        "pr_auc": 0.21663760066058282,
+        "brier_score": 0.11926549448115539
+      }
+    }
+  },
+  "macro_test_metrics": {
+    "confusion_matrix": 4596.5,
+    "accuracy": 0.921130207766779,
+    "precision": 0.328789136224733,
+    "recall": 0.41580362560579714,
+    "f1_score": 0.360829109736552,
+    "f2_score": 0.3892425820675374,
+    "specificity": 0.9449542020424253,
+    "negative_predictive_value": 0.9700205742966987,
+    "g_mean": 0.6179330017436998,
+    "youden_j": 0.3607578276482225,
+    "matthews_corrcoef": 0.3263631804168209,
+    "cohen_kappa": 0.32145055421879076,
+    "balanced_accuracy": 0.6803789138241111,
+    "roc_auc": 0.8360908327714635,
+    "pr_auc": 0.31234043687025864,
+    "brier_score": 0.13749499480865368
+  },
+  "micro_test_metrics": {
+    "confusion_matrix": [
+      [
+        164508,
+        10224
+      ],
+      [
+        5463,
+        3665
+      ]
+    ],
+    "accuracy": 0.9146796475579245,
+    "precision": 0.2638778889768882,
+    "recall": 0.40151183172655563,
+    "f1_score": 0.3184602684971977,
+    "f2_score": 0.36358405587190734,
+    "specificity": 0.9414875351967045,
+    "negative_predictive_value": 0.9678592230438741,
+    "g_mean": 0.6148319972191988,
+    "youden_j": 0.34299936692326005,
+    "matthews_corrcoef": 0.28193205336708016,
+    "cohen_kappa": 0.2750227496687523,
+    "balanced_accuracy": 0.67149968346163,
+    "roc_auc": 0.847597713896266,
+    "pr_auc": 0.30723469174741685,
+    "brier_score": 0.1374949948086537
+  },
+  "thresholds": {
+    "cardiomegaly": 0.606638491153717,
+    "aortic elongation": 0.7056127190589905,
+    "unchanged": 0.5012279152870178,
+    "scoliosis": 0.8310635685920715,
+    "costophrenic angle blunting": 0.722364068031311,
+    "air trapping": 0.765346109867096,
+    "pleural effusion": 0.9159021973609924,
+    "interstitial pattern": 0.8028661608695984,
+    "vertebral degenerative changes": 0.8637712001800537,
+    "laminar atelectasis": 0.6933267712593079
+  },
+  "used_files": {
+    "x_val": "/kaggle/input/padchestaug/X_val.npy",
+    "y_val": "/kaggle/input/padchestaug/Y_simp_val.npy",
+    "x_test": "/kaggle/input/padchestaug/X_test.npy",
+    "y_test": "/kaggle/input/padchestaug/Y_simp_test.npy",
+    "taxonomy_dir": "/kaggle/input/taxonomy"
+  }
+}
